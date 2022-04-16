@@ -10,19 +10,19 @@ import lombok.EqualsAndHashCode;
 public class OracleParam {
     private static final long serialVersionUID = 1L;
     //1.当前包名
-    private String packageName = "com.hzst.synctool";
+    private String packageName = "com.code.tool";
     //2.数据库类型
     private DbType dbType = DbType.MYSQL;
     //3.数据库连接地址
-    private String dbUrl = "jdbc:mysql://localhost:3307/cloudalibaba?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowMultiQueries=true";
+    private String dbUrl = "jdbc:mysql://localhost:3307/db1?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowMultiQueries=true";
     //4.驱动名
     private String driverName = "com.mysql.cj.jdbc.Driver";
     //5.数据库名
-    private String dbName = "cloudalibaba";
+    private String dbName = "db1";
     //6.数据库用户
     private String userName = "root";
     //7.数据库密码
-    private String password = "12306";
+    private String password = "root";
     //8.表前缀
     private String tablePrefix = "com.mysql.cj.jdbc.Driver";
     //9.作者
