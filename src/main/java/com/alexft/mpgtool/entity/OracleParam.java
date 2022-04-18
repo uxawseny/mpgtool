@@ -12,11 +12,11 @@ public class OracleParam {
     //1.当前包名
     private String packageName = "com.code.tool";
     //2.数据库类型
-    private DbType dbType = DbType.MYSQL;
+    private DbType dbType = DbType.ORACLE;
     //3.数据库连接地址
-    private String dbUrl = "jdbc:mysql://localhost:3307/db1?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowMultiQueries=true";
+    private String dbUrl = "jdbc:oracle:thin:@192.168.1.1:1521:ORCL";
     //4.驱动名
-    private String driverName = "com.mysql.cj.jdbc.Driver";
+    private String driverName = "oracle.jdbc.driver.OracleDriver";
     //5.数据库名
     private String dbName = "db1";
     //6.数据库用户
@@ -24,7 +24,7 @@ public class OracleParam {
     //7.数据库密码
     private String password = "root";
     //8.表前缀
-    private String tablePrefix = "com.mysql.cj.jdbc.Driver";
+    private String tablePrefix = "";
     //9.作者
     private String author = "author";
     //10.驼峰转连字符

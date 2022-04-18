@@ -24,7 +24,7 @@ public class MysqlParam {
     //7.数据库密码
     private String password = "root";
     //8.表前缀
-    private String tablePrefix = "com.mysql.cj.jdbc.Driver";
+    private String tablePrefix = "";
     //9.作者
     private String author = "author";
     //10.驼峰转连字符
